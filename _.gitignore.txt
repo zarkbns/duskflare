@@ -1,0 +1,7 @@
+.env
+.env.local.coston2
+config/proxy/extension_proxy.coston2.docker.toml
+config/extension.env
+node_modules/
+out/
+cache/
