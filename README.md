@@ -1,6 +1,6 @@
 # Dusk
 
-Private cross-chain dark pool for XRP and BTC on Flare.
+Private cross-chain dark pool for XRP on Flare.
 
 Dusk enables confidential trading without exposing orders to the public before execution. Orders remain encrypted throughout the matching process and are only revealed as required for verifiable on-chain settlement.
 
@@ -36,7 +36,7 @@ Completed trades are settled on-chain through Flare, providing transparent and a
 
 ### Cross-Chain Liquidity
 
-Dusk is designed for confidential trading between XRP and BTC using Flare as the coordination and settlement layer.
+Dusk is designed for confidential trading of XRP supported assets using Flare as the coordination and settlement layer.
 
 ---
 
