@@ -22,7 +22,7 @@ contract DeployScript is Script {
         vm.startBroadcast(deployerKey);
 
         MockFDC mockFdc = new MockFDC();
-        console.log("MockFDC deployed at:", address(mockFdc));
+        console.log("MockFDC deployed at:"sed -i 's/DEPLOYMENT_PRIVATE_KEY=".*"/DEPLOYMENT_PRIVATE_KEY="0x271ae43ea6924a7f4138da8846cad9da2d814dc38ae33e1cf45d89da135b4ad6"/' /workspaces/duskflare/fce-extension/.envUint, address(mockFdc));
 
         DarkPoolOrchestrator orchestrator = new DarkPoolOrchestrator(
             address(mockFdc),
