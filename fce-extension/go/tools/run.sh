@@ -1,0 +1,1 @@
+PRIVATE_KEY="0x4074ea1c6f8e2e15886c7d43ed4fea70df0b46f9cc5cb5c00696c389337e4977" go run ./cmd/register-extension -a ../../config/coston2/deployed-addresses.json -c "https://coston2-api.flare.network/ext/C/rpc" --instructionSender 0x68A34839A67744dC8878F206e4e4c4f5F9178fED

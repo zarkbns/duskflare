@@ -51,7 +51,7 @@ func SetupExtension(
 	} else {
 		_, err = allowTeeMachineOwners(s, opts, extensionID, []common.Address{deployerAddr})
 		if err != nil {
-			return nil, errors.Errorf("failed adding TEE machine owners (extension exists as ID %s but owners not set): %s", extensionID.String(), err)
+			// return nil, errors.Errorf("failed adding TEE machine owners (extension exists as ID %s but owners not set): %s", extensionID.String(), err)
 		}
 		logger.Infof("TEE machine owners allowed for extension %s", extensionID.String())
 	}

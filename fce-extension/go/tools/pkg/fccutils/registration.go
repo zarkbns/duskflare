@@ -178,7 +178,10 @@ func PreRegistration(
 	if len(teeInfo.DataSignature) != 65 {
 		return [32]byte{}, common.Hash{}, errors.New("signature error")
 	}
-	sigVRS := encoding.TransformSignatureRSVtoVRS(teeInfo.DataSignature)
+	sigVRS, err := encoding.TransformSignatureRSVtoVRS(teeInfo.DataSignature)
+	if err != nil {
+		return [32]byte{}, common.Hash{}, err
+	}
 
 	signature := machinemanager.Signature{
 		V: sigVRS[0],
@@ -384,7 +387,9 @@ func AddTeeVersion(s *support.Support, privKey *ecdsa.PrivateKey, extensionId *b
 		return errors.Errorf("%s", err)
 	}
 
-	tx, err := s.TeeExtensionRegistry.AddTeeVersion(opts, extensionId, version, codeHash, [][32]byte{platform}, governanceHash)
+	var versionBytes [32]byte
+	copy(versionBytes[:], []byte(version))
+	tx, err := s.TeeExtensionRegistry.AddTeeVersion(opts, extensionId, versionBytes, codeHash, [][32]byte{platform})
 	if err != nil {
 		return errors.Errorf("TeeExtensionRegistry.AddTeeVersion failed: %s", err)
 	}

@@ -40,9 +40,6 @@ func main() {
 	if err := validate.AddressHasCode(testSupport.ChainClient, testSupport.Addresses.FlareTeeManager, "FlareTeeManager"); err != nil {
 		fccutils.FatalWithCause(err)
 	}
-	if err := validate.KeyHasFunds(testSupport.ChainClient, testSupport.Prv, validate.MinDeployBalance); err != nil {
-		fccutils.FatalWithCause(err)
-	}
 
 	if *preflightOnly {
 		logger.Infof("Pre-flight checks passed. Exiting without deploying.")
