@@ -95,8 +95,8 @@ github.com/flare-foundation/go-flare-common v1.2.2-0.20260623111601-c573c79c0924
 github.com/flare-foundation/go-flare-common v1.2.2-0.20260623111601-c573c79c0924/go.mod h1:H9I3pwQAyiOK+jC7tFHYRZa5qxDeOldW+5VpRiUs6rA=
 github.com/flare-foundation/tee-node v0.0.23-0.20260722073401-c687a8631bca h1:ty4V7FS4LbXcvmthlApz+DqtAVKasuGIMOI3ry4zZjk=
 github.com/flare-foundation/tee-node v0.0.23-0.20260722073401-c687a8631bca/go.mod h1:22Bey5aFTmpfXWHptYsDk2FvNP2AZGCzY59xX2iYzWo=
-github.com/flare-foundation/tee-proxy v0.0.19 h1:v+oM02aUmOEYZmejQeVEhVn0f54HZUGJcxPGsB9DId4=
-github.com/flare-foundation/tee-proxy v0.0.19/go.mod h1:6Ou6C0OLw8imCRehYTDY0CnBMirbWZacmj9ehh4u77I=
+github.com/flare-foundation/tee-proxy v0.0.17 h1:PlgPXesndXxrIz9y/cDlCyRHmHkekJzsEEYgg2+4nDI=
+github.com/flare-foundation/tee-proxy v0.0.17/go.mod h1:KyTAd4lvJL1I04EXycZe6e99/Yxv0eUIZ89jeGQjAGo=
 github.com/fsnotify/fsnotify v1.9.0 h1:2Ml+OJNzbYCTzsxtv8vKSFD9PbJjmhYF14k/jKC7S9k=
 github.com/fsnotify/fsnotify v1.9.0/go.mod h1:8jBTzvmWwFyi3Pb8djgCCO5IBqzKJ/Jwo8TRcHyHii0=
 github.com/gballet/go-libpcsclite v0.0.0-20190607065134-2772fd86a8ff h1:tY80oXqGNY4FhTFhk+o9oFHGINQ/+vhlm8HFzi6znCI=

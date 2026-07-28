@@ -6,10 +6,10 @@ require (
 	github.com/ethereum/go-ethereum v1.17.2
 	github.com/flare-foundation/go-flare-common v1.2.2-0.20260623111601-c573c79c0924
 	github.com/flare-foundation/tee-node v0.0.23-0.20260722073401-c687a8631bca
-	github.com/flare-foundation/tee-proxy v0.0.19
+	github.com/flare-foundation/tee-proxy v0.0.17
 	github.com/joho/godotenv v1.5.1
 	github.com/pkg/errors v0.9.1
-	sign-extension v0.0.0
+	sign-extension v0.0.0-00010101000000-000000000000
 )
 
 require (
@@ -40,7 +40,6 @@ require (
 	cloud.google.com/go/longrunning v0.7.0 // indirect
 	github.com/Microsoft/go-winio v0.6.2 // indirect
 	github.com/ProjectZKM/Ziren/crates/go-runtime/zkvm_runtime v0.0.0-20251106012722-c7be33e82a11 // indirect
-	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bits-and-blooms/bitset v1.24.3 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.3.5 // indirect
 	github.com/consensys/gnark-crypto v0.19.2 // indirect
@@ -60,12 +59,7 @@ require (
 	github.com/googleapis/gax-go/v2 v2.15.0 // indirect
 	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/holiman/uint256 v1.3.2 // indirect
-	github.com/klauspost/compress v1.17.9 // indirect
-	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/prometheus/client_golang v1.20.5 // indirect
-	github.com/prometheus/client_model v0.6.1 // indirect
-	github.com/prometheus/common v0.55.0 // indirect
-	github.com/prometheus/procfs v0.15.1 // indirect
 	github.com/shirou/gopsutil v3.21.11+incompatible // indirect
 	github.com/supranational/blst v0.3.16 // indirect
 	github.com/tklauser/go-sysconf v0.3.15 // indirect
